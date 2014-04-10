@@ -124,3 +124,7 @@ set noswapfile
 """"""""""""""""""""""""""""""
 " Always show the status line
 set laststatus=2
+
+" Add custom bindings for moving between tabs
+nmap <C-h> :tabp<CR>
+nmap <C-l> :tabn<CR>
